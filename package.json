@@ -1,0 +1,13 @@
+{
+  "name": "server-http",
+  "version": "0.0.0",
+  "description": "ServerHttp",
+  "main": "app.js",
+  "author": {
+    "name": "lfern"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "easy-dependency-loader": "0.0.7"
+  }
+}
