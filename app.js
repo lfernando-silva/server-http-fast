@@ -8,7 +8,7 @@ const http = EDL.load('http')
 const RequestHandler = EDL.load('RequestHandler');
 const Promise = require('bluebird');
 
-const port = 3000
+const port = process.env.PORT || 3000
 const host = '192.168.0.123'
 
 const requestHandler = (request, response) => {
